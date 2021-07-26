@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7417b1bb.chunk.css",
+    "main.js": "/static/js/main.d12860d1.chunk.js",
+    "main.js.map": "/static/js/main.d12860d1.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ff91a89e.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ff91a89e.js.map",
+    "static/css/2.ef9168ec.chunk.css": "/static/css/2.ef9168ec.chunk.css",
+    "static/js/2.94ddd63c.chunk.js": "/static/js/2.94ddd63c.chunk.js",
+    "static/js/2.94ddd63c.chunk.js.map": "/static/js/2.94ddd63c.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.ef9168ec.chunk.css.map": "/static/css/2.ef9168ec.chunk.css.map",
+    "static/css/main.7417b1bb.chunk.css.map": "/static/css/main.7417b1bb.chunk.css.map",
+    "static/js/2.94ddd63c.chunk.js.LICENSE.txt": "/static/js/2.94ddd63c.chunk.js.LICENSE.txt",
+    "static/media/PV-arrays.e829976b.jpeg": "/static/media/PV-arrays.e829976b.jpeg",
+    "static/media/nrel-logo.b4926a7b.png": "/static/media/nrel-logo.b4926a7b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ff91a89e.js",
+    "static/css/2.ef9168ec.chunk.css",
+    "static/js/2.94ddd63c.chunk.js",
+    "static/css/main.7417b1bb.chunk.css",
+    "static/js/main.d12860d1.chunk.js"
+  ]
+}
