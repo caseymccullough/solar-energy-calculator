@@ -7,8 +7,10 @@ export default function Home() {
         <h1>Solar Calculator Home Page</h1>
         
         <img id = "home-img" src = {PVImg} alt="an array of photovoltaics"/>
-        <h4>A clone of NREL's PVWatts Calculator</h4>
-        <h4>By Casey McCullough</h4>
+        <div id="credits">
+          <p>A clone of NREL's PVWatts Calculator</p>
+          <p>by Casey McCullough</p>
+        </div>
     </div>
   );
 }

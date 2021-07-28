@@ -1,6 +1,7 @@
 
 import { Form } from 'react-bootstrap';
 import '../../App.css';
+import Map from '../map/Map.js';
 
 export default function Resource({formData, setFormData}) {
 
@@ -27,12 +28,9 @@ export default function Resource({formData, setFormData}) {
     return (
       <div className="resource slide">
         <h1>Solar Resource Data</h1>
-
-    
-      <script type="text/javascript"></script>
-      <p>Please enter your latitude, longitude, and electricity price below</p>
-
-      <Form onSubmit={handleSubmit} className="lat-and-long-form form slide">
+        <script type="text/javascript"></script>
+        <p>Please enter your latitude, longitude, and electricity price below</p>
+        <Form onSubmit={handleSubmit} className="lat-and-long-form form slide">
           <label>
             Latitude
             <input 
@@ -60,8 +58,14 @@ export default function Resource({formData, setFormData}) {
             onChange={handleChange}
             ></input>
           </label>
+          {formData.latitude && formData.longitude ?
+          <Map zoomLevel={17} formData = {formData}/> :
+          <p> awaiting data</p>
+          
+          }
         </Form>
-
-    </div>
+        
+        
+      </div>
   );
 }

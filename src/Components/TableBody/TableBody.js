@@ -1,5 +1,4 @@
 import '../../App.css';
-import Table from 'react-bootstrap/Table';
 
 export default function TableBody (props) {
 

@@ -1,10 +1,7 @@
 *{
-  font-size: 16px;
+  font-size: 13px;
 }
 
-.App{
-  
-}
 
 #body{
   font-family: 'Titillium Web', sans-serif;
@@ -17,7 +14,7 @@
 }
 
 .carousel-control-prev, .carousel-control-next {
-  color: orange;
+  color: #ff4800;
   background-color: transparent; 
 
 } 
@@ -29,15 +26,7 @@
   background-color: orange;
 
 }
-.carousel-control-next-icon {
-  
 
-  
-}
-
-.carousel-control-prev-icon {
- 
-}
 
 .nav-container{
   display: flex;
@@ -47,13 +36,13 @@
 }
 
 #pvwatts-header-text{
-  font-size: 3em;
+  font-size: 2.5em;
   font-weight: 200;
 }
 
-.location-info-bar{
+.location-bar{
  width: 100%;
- height: 65px; 
+ height: 60px; 
  background-image: linear-gradient(red, yellow);
 
  display: flex;
@@ -62,17 +51,37 @@
  margin-left: auto;
  margin-right: auto;
  justify-content: center;
+ align-items: center;
 
  color: white;
+}
 
+#address-input{
+  width: 250px;
+  margin: 15px; 
 
 }
 
-#user-address{
+.user-address{
+  font-size: 22px;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.pin {
+  display: flex;
+  align-items: center;
+  width: 40px;
+  color: blue;
+}
+
+.pin-icon {
+  font-size: 1rem;
+}
+
+.pin-text {
   font-size: 1.5em;
-
 }
-
 
 
 #holding-square{
@@ -87,17 +96,17 @@
 }
 
 main{
-  margin-top: 40px; 
+  margin-top: 25px; 
 }
 
 
 h1{
   color: rgb(255, 94, 0); 
   font-weight: 600;
-  font-size: 3em;
+  font-size: 2.5em;
   text-transform: uppercase;
   text-align: start;
-  padding: 20px;
+  padding: 10px;
 }
 
 .slide{
@@ -107,8 +116,6 @@ h1{
   margin-right: auto;
   justify-content: center; 
   text-align: center;
-
-  background-color:white;
 
 }
 
@@ -125,17 +132,25 @@ h1{
   padding: 0 30px;
 }
 
+#credits{
+  font-style: italic;
+  line-height: 1;
+}
+
 #data-values{
   
-  background-color: rgb(224, 224, 224);
+  background-color: darkgray;
+  color: white; 
   font-size: 40px;
   width: 250px;
   border-radius: 20px;
+  padding: 15px;
   border: 1px solid black;
   margin-left: auto;
   margin-right: auto;
   justify-content: center; 
-  border-bottom: 25px;
+  margin-bottom: 20px; 
+ 
 
 }
 
@@ -171,19 +186,27 @@ Table{
 
 
 #footer{
-  width: 800px;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
   justify-content: center;
   text-align: center;
-  font-size: 12px;
+  font-size: 20px;
+
+  
 
 }
 
 #footer-links{
-  font-weight: 600;
+  font-weight: 500;
+  font-size: 0.6em;
 }
 
 #nrel-description{
+  margin:0; 
   margin-top: 2em;
-  background-color: rgb(211, 209, 209);
+  background-color: rgba(240, 240, 240);
   padding: 0 15px;
 }

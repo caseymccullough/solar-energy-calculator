@@ -18,14 +18,15 @@ import UserAddress from './UserAddress';
                         <img src = {nrelLogo} alt="NREL logo"/></a>
                 </div>
             </div>
-            {formattedAddress === "" ? 
-                <LocationFinder 
-                    formData = {formData}
-                    setFormData = {setFormData}
-                    setFormattedAddress = { setFormattedAddress }
-                /> 
-            : <UserAddress address={formattedAddress}/>}
-            
+                <div className="location-bar">
+                {formattedAddress === "" ? 
+                    <LocationFinder 
+                        formData = {formData}
+                        setFormData = {setFormData}
+                        setFormattedAddress = { setFormattedAddress }
+                    /> 
+                : <UserAddress id="user-address" address={formattedAddress}/>}
+            </div>
         </nav>
         );
 

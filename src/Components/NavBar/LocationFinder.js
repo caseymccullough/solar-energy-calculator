@@ -48,10 +48,10 @@ export default function LocationFinder({ setFormattedAddress, formData, setFormD
     }
 
    return (
-      <div className="location-info-bar">
-         <p id="user-address">Please enter your address:  </p>
+      <div className="location-bar">
+         <h3>Please enter your address </h3>
          <form>
-            <input ref = { addressRef } type="text" />
+            <input ref = { addressRef } type="text" id="address-input"/>
             <input type="button" onClick={submit} value="Go" /> 
          </form>     
       </div>

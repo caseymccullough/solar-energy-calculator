@@ -1,5 +1,5 @@
-import { Link, Route, Switch } from "react-router-dom";
-import {useState, useEffect} from "react";
+
+import {useState} from "react";
 import Carousel from 'react-bootstrap/Carousel';
 import Home from "./Components/Home/Home";
 import Resource from "./Components/Resource/Resource";
@@ -13,8 +13,8 @@ import './App.css';
 export default function App() {
 
   const [formData, setFormData] = useState({
-    latitude: "0",
-    longitude: "0",
+    latitude: "",
+    longitude: "",
     size: "4",
     moduleTypeIndex: "0",
     arrayTypeIndex: "0",
@@ -27,7 +27,6 @@ export default function App() {
 /*** USE formData AND setFormData  */
 
 const [formattedAddress, setFormattedAddress] = useState("");
-
 const [solarData, setSolarData] = useState({});
 const [index, setIndex] = useState(0);
 const [isDataValid, setValidData] = useState(0);
@@ -36,8 +35,6 @@ const [isDataValid, setValidData] = useState(0);
       setIndex(selectedIndex);
     };
 
- 
-  
   return (
     <div className="App">
       <div id="body">
@@ -53,7 +50,6 @@ const [isDataValid, setValidData] = useState(0);
                 <Carousel.Item>
                   <Home/>
                 </Carousel.Item>
-
                 <Carousel.Item >
                   <Resource formData = {formData} setFormData = {setFormData}></Resource>
                 </Carousel.Item>
@@ -66,12 +62,11 @@ const [isDataValid, setValidData] = useState(0);
                  <Carousel.Item>  
                    <Results formData={formData} solarData={solarData} ></Results>  
                 </Carousel.Item>
-
-              </Carousel>   
-            </main>
-            <Footer/>
+              </Carousel>           
+          </main>
+          <Footer/>  
           </div>
       </div> 
     </div>
   );
-  }
+}

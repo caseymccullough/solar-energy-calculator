@@ -5,9 +5,7 @@ export default function SubmitData ({formData, setSolarData}) {
 
   const panelOptions = ["Standard", "Premium", "Thin film"];
   const arrayOptions = ["Fixed - Open Rack", "Fixed - Roof Mounted", "1-Axis", "1-Axis Backtracking", "2-Axis"];
-    
-  const testUrl =`https://developer.nrel.gov/api/pvwatts/v6.json?api_key=DEMO_KEY&lat=40&lon=-115&system_capacity=4&azimuth=180&tilt=40&array_type=1&module_type=1&losses=10`;
-    
+        
   let keyValArray = [];
     const keyValue = (input) => Object.entries(input).forEach(([key,value]) => {
         keyValArray.push(key + ": " + value);
