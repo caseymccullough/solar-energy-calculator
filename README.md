@@ -11,7 +11,34 @@ APIs: [Google Geocode](https://maps.googleapis.com/maps/api/geocode/json), [Reac
 
 ## Getting Started: 
 
-[Find it on Heroku](https://electric-sage.herokuapp.com/)
+
+![image](https://user-images.githubusercontent.com/11179812/127500409-9541e2d9-f75d-480c-8201-e4f4df2ab2f8.png)
+
+1. Enter the address for the property in question in the search bar at the top of the page. 
+2. Click on the right arrow, to move to the Solar Resource Data page. 
+
+![image](https://user-images.githubusercontent.com/11179812/127501075-66b13e7b-8114-49c4-8ce8-58015fbb404f.png)
+
+3. The Solar Resource Data page will show the lat/ long associated with the given address, as well as a map of the location. Confirm that this is the correct location and enter the price of electricity in the region of interest. 
+4. Click the right arrow to move to the System Information page. 
+
+![image](https://user-images.githubusercontent.com/11179812/127501303-b5b6932e-d624-44af-aadf-f2521a485475.png)
+
+5. Change the form as needed to describe the system planned for the given location. 
+6. Click the right arrow to move to the Data Summary page. 
+
+![image](https://user-images.githubusercontent.com/11179812/127501585-62cbc404-4989-46a1-98fb-970279bdeb95.png)
+
+7. Confirm that all data is correct. If it requires adjustment, you can click the back arrows to go back and revise your numbers. 
+8. Once all values are correct, click the "Submit Data" button. 
+9. Click the right arrow to go to the Results page. 
+
+![image](https://user-images.githubusercontent.com/11179812/127502066-34e0b4e0-7a01-47ce-901e-f533de92a994.png)
+
+10. The Results page shows a month-by-month assessment of historical solar radiation figures, expected energy output, and the value of that output for a given electricity cost. It also has annual totals at the bottom of the table. 
+
+
+
 
 ## Unsolved Problems: 
 
