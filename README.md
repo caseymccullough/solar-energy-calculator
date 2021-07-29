@@ -1,9 +1,8 @@
-# Solar Energy Calculator 
-## (A clone of NREL's PVWatts)
+# Solar Energy Calculator (A clone of NREL's PVWatts)
 
 [Try the App!](https://solar-energy-calculator.herokuapp.com/)
 
-### This application emulates the [PVWatts application](https://pvwatts.nrel.gov/) provided by the National Renewable Energy Lab. Though it is somewhat different in appearance, it provides the same basic functionality as the NREL site. My site leverages NREL's  
+This application emulates the [PVWatts application](https://pvwatts.nrel.gov/) produced by the National Renewable Energy Lab. Though it is somewhat different in appearance, it provides the same basic functionality as the NREL site. My site leverages NREL's  
 
 
 
