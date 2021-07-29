@@ -2,13 +2,11 @@
 
 [Try the App!](https://solar-energy-calculator.herokuapp.com/)
 
-This application emulates the [PVWatts application](https://pvwatts.nrel.gov/) produced by the National Renewable Energy Lab. Though it is somewhat different in appearance, it provides the same basic functionality as the NREL site. My site leverages NREL's  
-
-
+This application emulates the [PVWatts application](https://pvwatts.nrel.gov/) produced by the National Renewable Energy Lab. Though it is somewhat different in appearance, it provides the same basic functionality as the NREL site. My site leverages NREL's PVWatts API to offer the user information on the likely productivity of a photovoltaic power system in a given location. The site translates geographic information into solar energy data, then combines that with specific details about the planned PV system (as entered by the user). The combination of solar and system information enables a month-by-month estimation of the electricity cost savings 
 
 ## Technologies Used: 
 
-React, JavaScript, HTML, CSS, Bootstrap (for Table, 
+React, JavaScript, HTML, CSS, React-Bootstrap (for Table, Form, and Carousel)
 APIs: [Google Geocode](https://maps.googleapis.com/maps/api/geocode/json), [React Google Maps](https://react-google-maps-api-docs.netlify.app/), and [NREL PVWatts V6](https://developer.nrel.gov/docs/solar/pvwatts/v6/)
 
 ## Getting Started: 
@@ -24,7 +22,11 @@ Under System Information the pull-down menus continue to show their original lab
 
 ## Future Enhancements: 
 
-First, I want to make the aesthetic of the system info more in line with that of the NREL page. 
+First, I want to make the aesthetic of the system info data confirmation / entry more in line with that of the NREL page. 
+
+Secondly, I want to adjust the map, which currently bleeds off the screen a bit. I'd also like to change the label to the address entered by the user (currently it says "Location"). 
+
+Currently the user must hit a button on the Submit Data page to validate all data (thus triggering a call to the PVWatts API). This is different to all previous navigation which takes place through the navigation arrows on the right and left side of the screen. A better solution will automatically make the API call when the user clicks the arrow that advances him / her to the Results page, eliminating the need for the button. 
 
 The actual PVWatts app has a nice display at the top of the page that shows all required steps towards the completion of the analysis. In a future version I would like to replicate this. 
 
