@@ -12,8 +12,8 @@ APIs: [Google Geocode](https://maps.googleapis.com/maps/api/geocode/json), [Reac
 ## Getting Started: 
 
 
-![image](https://user-images.githubusercontent.com/11179812/127500409-9541e2d9-f75d-480c-8201-e4f4df2ab2f8.png)
-
+![image]()
+<img src="https://user-images.githubusercontent.com/11179812/127500409-9541e2d9-f75d-480c-8201-e4f4df2ab2f8.png" width="50%" height="50%" />
 1. Enter the address for the property in question in the search bar at the top of the page. 
 2. Click on the right arrow, to move to the Solar Resource Data page. 
 
